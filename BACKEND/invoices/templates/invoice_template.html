@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+</head>
+<body>
+    <h2>Invoice for Booking #{{ booking.id }}</h2>
+    <p>Customer: {{ booking.user.username }}</p>
+    <p>Service: {{ service.name }}</p>
+    <p>Amount Paid: ₹{{ payment.amount }}</p>
+    <p>Status: {{ payment.payment_status }}</p>
+</body>
+</html>
